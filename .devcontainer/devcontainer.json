@@ -5,16 +5,5 @@
     "forwardPorts": [
         8080
     ],
-    "workspaceFolder": "/var/www",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash",
-                "editor.tabSize": 2
-            },
-            "extensions": [
-                "ms-vscode-remote.remote-containers"
-            ]
-        }
-    }
+    "workspaceFolder": "/var/www"
 }
