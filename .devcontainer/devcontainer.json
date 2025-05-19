@@ -1,6 +1,6 @@
 {
     "name": "Dev Container TypeA",
-    "dockerComposeFile": "./docker/docker-compose.yml",
+    "dockerComposeFile": "docker-compose.yml",
     "service": "php-fpm",
     "forwardPorts": [
         8080
@@ -10,11 +10,11 @@
         "vscode": {
             "settings": {
                 "terminal.integrated.defaultProfile.linux": "bash",
-                "editor.tabSize": 2,
+                "editor.tabSize": 2
             },
             "extensions": [
                 "ms-vscode-remote.remote-containers"
             ]
         }
-    },
+    }
 }
