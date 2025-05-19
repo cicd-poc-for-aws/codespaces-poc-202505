@@ -1,11 +1,11 @@
 {
     "name": "Dev Container TypeA",
-    "dockercomposeFile": "./docker/docker-compose.yml",
-    "service": "typea",
-    "fowardPorts": [
+    "dockerComposeFile": "./docker/docker-compose.yml",
+    "service": "php-fpm",
+    "forwardPorts": [
         8080
     ],
-    "workspaceFolder": "/workspace/src",
+    "workspaceFolder": "/var/www",
     "customizations": {
         "vscode": {
             "settings": {
