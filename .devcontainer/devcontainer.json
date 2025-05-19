@@ -1,0 +1,4 @@
+{
+    "name": "Dev Container TypeA",
+    "dockercomposeFile": "./docker/docker-compose.yml",
+}
