@@ -5,7 +5,7 @@
     "fowardPorts": [
         8080
     ],
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/workspace/src",
     "customizations": {
         "vscode": {
             "settings": {
@@ -17,5 +17,5 @@
             ]
         }
     },
-    "updateContentCommand": "composer install && cp .env.example .env && php artisan key:generate"
+    <!-- "updateContentCommand": "composer install && cp .env.example .env && php artisan key:generate" -->
 }
