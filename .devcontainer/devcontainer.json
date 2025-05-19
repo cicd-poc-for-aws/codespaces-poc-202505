@@ -5,7 +5,7 @@
     "fowardPorts": [
         8080
     ],
-    "workspaceFolder": "/var/www",
+    "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
             "settings": {
