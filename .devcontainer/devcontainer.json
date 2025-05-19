@@ -1,4 +1,21 @@
 {
     "name": "Dev Container TypeA",
     "dockercomposeFile": "./docker/docker-compose.yml",
+    "service": "typea",
+    "fowardPorts": [
+        8080
+    ],
+    "workspaceFolder": "/var/www",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "editor.tabSize": 2,
+            },
+            "extensions": [
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
+    },
+    "updateContentCommand": "composer install && cp .env.example .env && php artisan key:generate"
 }
